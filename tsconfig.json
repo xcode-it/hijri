@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "plugins": [
+            {
+                "name": "typescript-tslint-plugin"
+            }
+        ],
+        "jsx": "react",
+        "module": "commonjs",
+        "sourceMap": true,
+        "target": "es2015",
+        "declaration": true,
+        "listFiles": false,
+        "emitDeclarationOnly": true,
+        "declarationMap": true,
+        "isolatedModules": true,
+        "allowJs": true,
+        "checkJs": false,
+        "alwaysStrict": true,
+        "rootDir": "./",
+        "pretty": true,
+        "outDir": "dist/hijri/esm",
+        "typeRoots": ["./node_modules/@types"],
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "compileOnSave": true,
+    "include": ["./**/*"],
+    "exclude": ["node_modules", "dist", "example", "build"],
+    "awesomeTypescriptLoaderOptions": {
+        "useCache": true,
+        "useTranspileModule": true,
+        "transpileOnly": true
+    }
+}
