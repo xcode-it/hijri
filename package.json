@@ -1,6 +1,6 @@
 {
     "name": "@get-x/hijri",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "This is a modified version of moment-jalaali by Behrang Noruzi Niya and extends Suhail Alkowaileet's work on moment-hijri.js lib",
     "license": "MIT",
     "main": "index.js",
