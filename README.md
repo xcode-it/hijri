@@ -86,4 +86,5 @@ console.log("Gregoria Format", hijriDate.format('DD-MM-YYYY'))
 
 ## License
 
-MIT © [get-x](https://github.com/get-x/hijri)
+MIT © [phantom-x](https://github.com/phantom-x/hijri)
+NPM © [@get-x/hijri](https://www.npmjs.com/package/@get-x/hijri)
