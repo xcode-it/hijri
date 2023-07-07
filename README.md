@@ -1,18 +1,18 @@
-# @fin-x/hijri
+# @get-x/hijri
 
 > This is a modified version of moment-jalaali by Behrang Noruzi Niya and extends Suhail Alkowaileet's work on moment-hijri.js lib
 
 ## Install
 
 ```bash
-npm install --save @fin-x/hijri
+npm install --save @get-x/hijri
 ```
 
 ## Usage
 
 ```jsx
 import React from 'react'
-import moment from '@fin-x/hijri'
+import moment from '@get-x/hijri'
 
 export default function HijriTable() {
     return (
@@ -71,7 +71,7 @@ export default function HijriTable() {
 ```
 
 ```js
-var moment = require('@fin-x/hijri')
+var moment = require('@get-x/hijri')
 
 const hijriDate = moment(`1424-12-17`, 'iYYYY-iM-iD', true)
 const gregorianDate = moment(`1990-07-09`, 'YYYY-M-D', true)
@@ -86,4 +86,4 @@ console.log("Gregoria Format", hijriDate.format('DD-MM-YYYY'))
 
 ## License
 
-MIT © [anon-phantom](https://github.com/anon-phantom/hijri)
+MIT © [get-x](https://github.com/get-x/hijri)

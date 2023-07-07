@@ -1,6 +1,6 @@
 {
-    "name": "@fin-x/hijri",
-    "version": "0.0.1",
+    "name": "@get-x/hijri",
+    "version": "0.0.2",
     "description": "This is a modified version of moment-jalaali by Behrang Noruzi Niya and extends Suhail Alkowaileet's work on moment-hijri.js lib",
     "license": "MIT",
     "main": "index.js",
@@ -29,14 +29,14 @@
         "url": "git+https://github.com/anon-phantom/hijri"
     },
     "keywords": [
-        "@FIN-X/hijri",
-        "@FIN-X"
+        "@GET-X/hijri",
+        "@GET-X"
     ],
     "peerDependencies": {
-      "@types/react": "^18.2.14",
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0",
-      "prop-types": "^15.8.1"
+        "@types/react": "^18.2.14",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "prop-types": "^15.8.1"
     },
     "peerDependenciesMeta": {
         "@types/react": {
