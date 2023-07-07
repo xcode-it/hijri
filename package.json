@@ -1,6 +1,6 @@
 {
     "name": "@get-x/hijri",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "This is a modified version of moment-jalaali by Behrang Noruzi Niya and extends Suhail Alkowaileet's work on moment-hijri.js lib",
     "license": "MIT",
     "main": "index.js",
@@ -29,8 +29,17 @@
         "url": "git+https://github.com/anon-phantom/hijri"
     },
     "keywords": [
-        "@GET-X/hijri",
-        "@GET-X"
+        "@get-x/hijri",
+        "@get-x",
+        "hijri",
+        "hijriah",
+        "arabic",
+        "lunar",
+        "Umm al-Qura",
+        "date",
+        "calendar",
+        "conversion",
+        "convert"
     ],
     "peerDependencies": {
         "@types/react": "^18.2.14",
